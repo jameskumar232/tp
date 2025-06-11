@@ -18,7 +18,7 @@ jobs:
       - name: Fetch MPD URL from API response
         run: |
           response=$(curl -s -H "Referer: https://dora-bash-live.blogspot.com/" \
-            "https://proxy.animebash.workers.dev/?u=https://bashserver.xyz/fucku.php?id=114")
+            "https://proxy.animebash.workers.dev/?u=https://bashserver.xyz/fucku.php?id=496")
 
           echo "$response" | jq -r '.mpd' > get.txt
 
