@@ -1,8 +1,8 @@
-name: Fetch CDN URL Every 8 min
+name: Fetch CDN URL Every 5 min
 
 on:
   schedule:
-    - cron: '*/8 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
