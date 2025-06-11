@@ -15,14 +15,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Fetch MPD URL from API response
+      - name: Fetch full API response
         run: |
           response=$(curl -s -H "Referer: https://dora-bash-live.blogspot.com/" \
             "https://proxy.animebash.workers.dev/?u=https://bashserver.xyz/fucku.php?id=496")
 
-          echo "$response" | jq -r '.mpd' > get.txt
+          echo "$response" > get.txt
 
-          echo "Fetched MPD URL:"
+          echo "Fetched full API response:"
           cat get.txt
 
       - name: Commit and push get.txt
