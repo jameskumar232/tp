@@ -1,1 +1,1 @@
-https://bpaita3.akamaized.net/bpk-tv/irdeto_com_Channel_166/output/manifest.mpd?hdnea=st=1749623716~exp=1749624316~acl=/bpk-tv/irdeto_com_Channel_166/output/*~id=1076415189~hmac=8a3701ca901e720086fecf48fe6b3a15a20e2c050e2dd3d5ad57f7eacd2337a6
+https://bpaita5.akamaized.net/bpk-tv/irdeto_com_Channel_818/output/manifest.mpd?hdnea=st=1749626631~exp=1749627231~acl=/bpk-tv/irdeto_com_Channel_818/output/*~id=1076415189~hmac=3d5c681b725cdd51fc23509465c718267aa970480ab9d409e3298a5c40c6b59c
