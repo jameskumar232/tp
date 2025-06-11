@@ -1,0 +1,31 @@
+name: Fetch CDN URL Every 6 Hours
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-cdn-url:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Fetch playlist and extract CDN URL only
+        run: |
+          curl -v -H "Referer: https://dora-bash-live.blogspot.com/" \
+            "https://proxy.animebash.workers.dev/?u=https://bashserver.xyz/fucku.php?id=114" 2>&1 \
+            | grep -i '< location:' \
+            | head -n 1 \
+            | sed 's/< location: //I' > get.txt
+
+      - name: Commit and push get.txt
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add get.txt
+          git commit -m "Update get.txt - $(date -u)" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
