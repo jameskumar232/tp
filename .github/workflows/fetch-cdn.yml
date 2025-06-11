@@ -15,13 +15,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Fetch playlist and extract CDN URL only
+      - name: Fetch MPD URL from API response
         run: |
-          curl -v -H "Referer: https://dora-bash-live.blogspot.com/" \
-            "https://proxy.animebash.workers.dev/?u=https://bashserver.xyz/fucku.php?id=114" 2>&1 \
-            | grep -i '< location:' \
-            | head -n 1 \
-            | sed 's/< location: //I' > get.txt
+          response=$(curl -s -H "Referer: https://dora-bash-live.blogspot.com/" \
+            "https://proxy.animebash.workers.dev/?u=https://bashserver.xyz/fucku.php?id=114")
+
+          echo "$response" | jq -r '.mpd' > get.txt
+
+          echo "Fetched MPD URL:"
+          cat get.txt
 
       - name: Commit and push get.txt
         run: |
