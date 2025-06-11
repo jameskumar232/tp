@@ -13,12 +13,13 @@ export default async function handler(req, res) {
     baseUrl = baseUrl.trim();
 
     if (!baseUrl) {
-      return res.status(500).json({ error: "Base URL not found in get.txt" });
+      return res.status(500).json({ error: "MPD URL not found in get.txt" });
     }
 
+    // Replace the placeholder ID with the actual channel ID (if relevant)
     const replacedUrl = baseUrl.replace("StarSports_2_Hin_HD_voot_MOB", id);
-    return res.redirect(302, replacedUrl);
 
+    return res.redirect(302, replacedUrl);
   } catch (error) {
     return res.status(500).json({ error: error.message });
   }
