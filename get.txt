@@ -1,6 +1,13 @@
-{
-    "id": "496",
-    "mpd": "https:\/\/bpaita5.akamaized.net\/bpk-tv\/irdeto_com_Channel_818\/output\/manifest.mpd?hdnea=st=1749925671~exp=1749926271~acl=\/bpk-tv\/irdeto_com_Channel_818\/output\/*~id=1076415189~hmac=dfb1bc2893ec33dc6ee992a121cd3e0a369e68cdb791eace46b7ee389f8c29f5",
-    "kid": "56dfa904c75a57cb93525740b4b7c60b",
-    "key": "114381be8cc852f7ab175c28fa0976de"
-}
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title> 503 Service Unavailable
+</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
+<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
+<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
+        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">503</h1>
+<h2 style="margin-top:20px;font-size: 30px;">Service Unavailable
+</h2>
+<p>The server is temporarily busy, try again later!</p>
+</div></div></body></html>
