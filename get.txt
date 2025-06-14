@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> 503 Service Unavailable
-</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">503</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Service Unavailable
-</h2>
-<p>The server is temporarily busy, try again later!</p>
-</div></div></body></html>
+{
+    "id": "496",
+    "mpd": "https:\/\/bpaita5.akamaized.net\/bpk-tv\/irdeto_com_Channel_818\/output\/manifest.mpd?hdnea=st=1749927417~exp=1749928017~acl=\/bpk-tv\/irdeto_com_Channel_818\/output\/*~id=1076415189~hmac=ae1edd914965d658a535fd56d31643dce3f710fa7caa9e9f9439e97ca912223a",
+    "kid": "90eafdd6aab952939cdbe997b01f772b",
+    "key": "fe0e81e1723d0c3c4bcba8cd00f43cdc"
+}
