@@ -1,6 +1,6 @@
 {
     "id": "496",
-    "mpd": "https:\/\/bpaita5.akamaized.net\/bpk-tv\/irdeto_com_Channel_818\/output\/manifest.mpd?hdnea=st=1749993390~exp=1749993990~acl=\/bpk-tv\/irdeto_com_Channel_818\/output\/*~id=1076415189~hmac=3d5ebf89e62a88284a6fe5884fd4384396f4d899b200a0a9d9259ea04c76161c",
-    "kid": "a4bbf69ac98757fba1ab4dff7751dd2b",
-    "key": "81012baedc3926ea038da7f04555a123"
+    "mpd": "https:\/\/bpaita5.akamaized.net\/bpk-tv\/irdeto_com_Channel_818\/output\/manifest.mpd?hdnea=st=1749994726~exp=1749995326~acl=\/bpk-tv\/irdeto_com_Channel_818\/output\/*~id=1076415189~hmac=cc63c8a4bbc3ddd44f6fdf26d0500cae3daa034d1ea0220006c73e815de313eb",
+    "kid": "22ba17d6539853859c15531f79dd52bf",
+    "key": "3049f963020ec512e6b97d0fee3a567f"
 }
