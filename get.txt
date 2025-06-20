@@ -1,6 +1,6 @@
 {
     "id": "496",
-    "mpd": "Not found",
+    "mpd": "https:\/\/bpaita5.akamaized.net\/bpk-tv\/irdeto_com_Channel_818\/output\/manifest.mpd?hdnea=st=1750427710~exp=1750428310~acl=\/bpk-tv\/irdeto_com_Channel_818\/output\/*~id=1076415189~hmac=0b6562819bf807abf67868b0fa99c2528bcb1ea6a0866b313179a4eeeda8947f",
     "kid": "22526b46dea95b2ba551817a2bf96fec",
     "key": "5103ac8a48fd8711a2d94f0fd9beb424"
 }
